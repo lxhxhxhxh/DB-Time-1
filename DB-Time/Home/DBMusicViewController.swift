@@ -27,7 +27,7 @@ class DBMusicViewController: DBBaseViewController {
         
         let label = UILabel()
         label.text = "谁改我的代码给我买iPhoneX!!!"
-        label.textColor = UIColor.black
+        label.textColor = UIColor.blue
         view.addSubview(label)
         label.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
